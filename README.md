@@ -102,4 +102,3 @@ from
 join	customers on customers.customer_id = orders.customer_id
 group by region
 order by sum(total_price) Desc
-
